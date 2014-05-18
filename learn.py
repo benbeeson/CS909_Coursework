@@ -346,5 +346,5 @@ def buildCluster(model, corpus, words):
 num_clusters = len(set(corpus[2]))
 print("Number of topics / clusters: " + str(num_clusters))
 buildCluster(KMeans(n_clusters=num_clusters, max_iter=100), corpus, BagWords)
-buildCluster(DBSCAN(eps=0.3, min_samples=num_clusters), corpus, BagWords)
+buildCluster(DBSCAN(eps=0.5, min_samples=100), corpus, BagWords)
 buildCluster(Ward(n_clusters=num_clusters), corpus, BagWords)
