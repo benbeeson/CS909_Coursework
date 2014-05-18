@@ -6,7 +6,7 @@ This coursework uses python 2.7 and requires the following libraries:
 * BeautifulSoup4 - used for XML parsing
 * NLTK (+ downloaded corpora) - used for pre-processing
 * GenSim - used for topic modelling
-* cikit-learn - classification / clustering
+* scikit-learn - classification / clustering
 
 Execution
 =========
